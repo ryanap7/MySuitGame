@@ -49,24 +49,24 @@
 
         <ImageView
             android:id="@+id/computer_batu"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
-            android:adjustViewBounds="true"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:contentDescription="@string/batu"
             android:src="@drawable/batu"
+            android:padding="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
             android:id="@+id/player_batu"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:contentDescription="@string/batu"
             android:src="@drawable/batu"
+            android:padding="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -78,20 +78,21 @@
 
         <ImageView
             android:id="@+id/computer_kertas"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
-            android:contentDescription="@string/batu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="12dp"
+            android:contentDescription="@string/kertas"
             android:src="@drawable/kertas"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/result"
             android:layout_width="72dp"
             android:layout_height="72dp"
             android:text="@string/vs"
             android:textAlignment="center"
-            android:textSize="56sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/computer_kertas"
@@ -100,10 +101,11 @@
 
         <ImageView
             android:id="@+id/player_kertas"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
-            android:contentDescription="@string/batu"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="12dp"
             android:src="@drawable/kertas"
+            android:contentDescription="@string/kertas"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
@@ -117,23 +119,25 @@
 
         <ImageView
             android:id="@+id/computer_gunting"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:src="@drawable/gunting"
+            android:padding="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/batu" />
+            android:contentDescription="@string/gunting" />
 
         <ImageView
             android:id="@+id/player_gunting"
-            android:layout_width="72dp"
-            android:layout_height="72dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
             android:src="@drawable/gunting"
+            android:padding="12dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            android:contentDescription="@string/batu"/>
+            android:contentDescription="@string/gunting"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
